@@ -17,7 +17,22 @@
 .env.development.local
 .env.test.local
 .env.production.local
+.env
 
+# Environment variables and API keys
+# Add this file to safely store your EmailJS credentials
+.env
+
+# Log files
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
