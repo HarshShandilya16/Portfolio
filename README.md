@@ -1,77 +1,72 @@
-# Harsh Shandilya - Personal Portfolio
+# Harsh Shandilya Portfolio
 
-A modern, interactive portfolio website showcasing my skills, projects, and achievements.
+A modern, interactive portfolio website built with React and styled-components.
 
-## Features
+## 🔗 Live Demo
 
-- Interactive 3D animations using Three.js
-- Dark mode and light mode support
+[View Live Portfolio](https://harshshandilyaportfolio.vercel.app/)
+
+## ✨ Features
+
 - Responsive design for all devices
-- Animated UI with smooth transitions using Framer Motion
-- Project showcase with filter options
-- Contact form with validation
-- Certifications display with carousel
+- Dark/Light theme toggle
+- Interactive animations using Framer Motion
+- Dynamic project showcase with filtering capabilities
+- Interactive "Code Bubble" game
+- Skills visualization with animations
+- Contact form with EmailJS integration
+- Smooth page transitions
 
-## Technologies Used
+## 🛠️ Built With
 
 - React.js
-- Three.js and React Three Fiber
-- Framer Motion for animations
-- Styled Components for styling
+- Styled Components
+- Framer Motion
+- EmailJS
 - React Icons
 
-## Prerequisites
+## 🚀 Getting Started
 
-- Node.js and npm
+### Prerequisites
 
-## Installation
+- Node.js
+- npm or yarn
 
-1. Clone this repository:
+### Installation
+
+1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/HarshShandilya16/Portfolio.git
 ```
 
-2. Navigate to the project directory:
+2. Navigate to the project directory
 ```bash
-cd portfolio
+cd Portfolio
 ```
 
-3. Install dependencies:
+3. Install dependencies
 ```bash
 npm install
 ```
 
-4. Download the required font for Three.js:
-   - Go to [https://github.com/mrdoob/three.js/blob/master/examples/fonts/helvetiker_regular.typeface.json](https://github.com/mrdoob/three.js/blob/master/examples/fonts/helvetiker_regular.typeface.json)
-   - Save the raw file content to `public/fonts/helvetiker_regular.typeface.json`
+4. Create a `.env` file in the root directory and add your EmailJS credentials:
+```
+REACT_APP_EMAILJS_PUBLIC_KEY=your_public_key
+REACT_APP_EMAILJS_SERVICE_ID=your_service_id
+REACT_APP_EMAILJS_TEMPLATE_ID=your_template_id
+```
 
-5. Start the development server:
+5. Start the development server
 ```bash
 npm start
 ```
 
-## Project Structure
+## 📝 License
 
-- `src/components/` - All React components
-- `src/animations/` - Three.js animations
-- `src/context/` - Context providers (theme)
-- `src/hooks/` - Custom React hooks
-- `src/utils/` - Utility functions and global styles
+This project is available as open source under the terms of the MIT License.
 
-## Customization
+## 🔗 Connect With Me
 
-- Edit project data in the respective component files
-- Change colors and theme variables in the `GlobalStyles.js`
-- Replace placeholder images with your own in the `public` folder
-
-## Deployment
-
-This project can be deployed on platforms like:
-- GitHub Pages
-- Netlify
-- Vercel
-- Firebase Hosting
-
-## License
-
-This project is licensed under the MIT License.
+- [LinkedIn](https://www.linkedin.com/in/harsh-shandilya-b63b87358)
+- [GitHub](https://github.com/HarshShandilya16)
+- Email: harshshandilya1605@gmail.com
